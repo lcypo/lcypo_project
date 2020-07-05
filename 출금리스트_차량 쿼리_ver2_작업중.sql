@@ -25,3 +25,4 @@ WHERE left(action_month,7) =  left(DATE_SUB( curdate(),  INTERVAL 0  month  ) ,7
  AND (tstatus <> '완료' OR mstatus <> '완료')
 GROUP BY account_code
 /* HAVING 계산서매입합계 + 현금입금 - 계산서매출합계- 현금출금 > 0  */
+-- github test 용 파일
